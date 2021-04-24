@@ -7,7 +7,14 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("hello world");
+            string name = "";
+             Console.WriteLine("please enter name :");
+            name = Console.ReadLine();
+            if(name=="mohammad")
+            {
+                Console.WriteLine("hello mohammad");
+            }
         }
 
     }
